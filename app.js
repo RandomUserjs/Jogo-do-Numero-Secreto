@@ -71,6 +71,8 @@ function limparCampo()
     chute = document.querySelector('input');
     chute.value = ' ';
 }
+
+//Botão para reiniciar o jogo
 function botaoNovoJogo()
 {
     document.getElementById('reiniciar').removeAttribute('disabled');
