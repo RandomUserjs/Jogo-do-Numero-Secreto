@@ -18,6 +18,7 @@ function exibirMensagemInicial()
     exibirTextoNaTela('p','Escolha um número entre 1 e ' + numeroMaximo);
 }
 
+// Função para gerar um número aleatório
 function verificarChute() 
 {
     let chute = document.querySelector('input').value;
