@@ -65,7 +65,7 @@ function gerarNumeroAleatorio()
     }
       
 }
-
+//Facilitador de novas tentativas
 function limparCampo()
 {
     chute = document.querySelector('input');
