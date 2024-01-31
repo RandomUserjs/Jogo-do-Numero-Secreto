@@ -77,6 +77,8 @@ function botaoNovoJogo()
 {
     document.getElementById('reiniciar').removeAttribute('disabled');
 }
+
+//Função para reiniciar o jogo
 function novoJogo()
 {
     numeroAleatorio = gerarNumeroAleatorio()
