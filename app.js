@@ -5,6 +5,7 @@ let tentativas = 0;
 
 exibirMensagemInicial();
 
+// Função que exibe um texto na tela, levando os valores tag e texto como parâmetros
 function exibirTextoNaTela(tag, texto)
 {
     let campo = document.querySelector(tag);
