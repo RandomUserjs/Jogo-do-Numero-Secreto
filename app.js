@@ -12,7 +12,7 @@ function exibirTextoNaTela(tag, texto)
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate:1.2});
 }
-
+// Função que exibe uma mensagem inicial na tela, utilizando da função "exibirTextoNaTela()"
 function exibirMensagemInicial()
 {
     exibirTextoNaTela('h1','Jogo do número secreto');
