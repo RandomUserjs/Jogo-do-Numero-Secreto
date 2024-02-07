@@ -1,3 +1,4 @@
+//Variáveis Globais
 let listaDeNumerosSorteados = [];
 let = numeroMaximo = 100;
 let numeroAleatorio = gerarNumeroAleatorio();
